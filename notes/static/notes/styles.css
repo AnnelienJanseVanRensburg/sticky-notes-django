@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.note-card {
+    border-left: 4px solid #ffc107;
+    transition: transform 0.2s;
+    background-color: #fffbea;
+}
+
+.note-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom {
+    background-color: #343a40;
+}
+
+.btn-custom {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-custom:hover {
+    background-color: #ffca2c;
+    color: #000;
+}
