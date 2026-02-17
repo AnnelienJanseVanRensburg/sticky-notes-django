@@ -38,7 +38,7 @@ This project was developed as part of a Software Engineering bootcamp to demonst
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/sticky-notes-app.git
+git clone https://github.com/AnnelienJanseVanRensburg/sticky-notes-django
 cd sticky-notes-app
 ```
 
@@ -89,7 +89,7 @@ Open your browser and navigate to:
 - **Application**: http://127.0.0.1:8000/notes/
 - **Admin Panel**: http://127.0.0.1:8000/admin/
 
-## 🧪 Running Tests
+## Running Tests
 
 The project includes comprehensive unit tests covering models, views, forms, and URL routing.
 
@@ -150,16 +150,16 @@ Sticky_Notes_App/
     │   └── notes/
     │       └── custom.css         # Custom styling
     │
-    └── templates/                 # HTML templates
+    └── templates/                          # HTML templates
         └── notes/
-            ├── base.html          # Base template
-            ├── note_list.html     # List view
-            ├── note_detail.html   # Detail view
-            ├── note_form.html     # Create/Edit form
-            └── note_confirm_delete.html  # Delete confirmation
+            ├── base.html                   # Base template
+            ├── note_list.html              # List view
+            ├── note_detail.html            # Detail view
+            ├── note_form.html              # Create/Edit form
+            └── note_confirm_delete.html    # Delete confirmation
 ```
 
-## 🎨 Architecture
+## Architecture
 
 ### Model-View-Template (MVT)
 
@@ -193,7 +193,7 @@ Sticky_Notes_App/
 | `/notes/<pk>/delete/` | note_delete | Delete note |
 | `/admin/` | Django Admin | Admin interface |
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Backend Framework**: Django 5.0+
 - **Database**: SQLite3 (development)
@@ -202,19 +202,17 @@ Sticky_Notes_App/
 - **Testing**: Django TestCase
 - **Version Control**: Git
 
-## 📝 Design Documentation
+## Design Documentation
 
 This project includes comprehensive design documentation:
 
 - **Use Case Diagram** - System actors and interactions
 - **Sequence Diagrams** - All CRUD operation flows
 - **Class Diagram** - Note model structure
-- **MVC Architecture** - Separation of concerns
-- **CRUD Matrix** - Operation documentation
 
 All design documents are available in the project repository.
 
-## 🎓 Key Learning Outcomes
+## Key Learning Outcomes
 
 Through building this application, the following concepts were mastered:
 
@@ -229,11 +227,11 @@ Through building this application, the following concepts were mastered:
 - Bootstrap integration
 - Code quality and best practices
 
-## 🐛 Known Issues
+## Known Issues
 
 None currently. All tests passing.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential features for future development:
 
@@ -248,7 +246,7 @@ Potential features for future development:
 - [ ] Pagination for large note collections
 - [ ] REST API for mobile apps
 
-## 🤝 Contributing
+## Contributing
 
 This is an educational project, but feedback and suggestions are welcome! If you'd like to contribute:
 
@@ -258,24 +256,24 @@ This is an educational project, but feedback and suggestions are welcome! If you
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project was created for educational purposes as part of a software engineering bootcamp.
 
-## 👤 Author
+## Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@AnnelienJanseVanRensburg](https://github.com/AnnelienJanseVanRensburg)
+- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/annelien-janse-van-rensburg-288942271/)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - HyperionDev for the project specifications
 - Django documentation and community
 - Bootstrap team for the UI framework
 - Font Awesome for icons
 
-## 📞 Support
+## Support
 
 If you have any questions or run into issues:
 
@@ -286,6 +284,6 @@ If you have any questions or run into issues:
 
 ---
 
-**Built with ❤️ using Django**
+**Built using Django**
 
 *Last Updated: February 2026*
